@@ -1,0 +1,14 @@
+{
+    "name": "Code Crafters",
+    "version": "1.0.0",
+    "description": "Project",
+    "manifest_version":3,
+    "author":"AISHIKA,KARTIK,PRITI,SUMIT",
+    "action":{
+        "default_popup":"index.html",
+         "default_title":"Code Crafters"
+    }
+
+
+
+}
