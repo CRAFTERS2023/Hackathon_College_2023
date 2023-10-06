@@ -1,0 +1,128 @@
+/* nav bar */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /* Css Variable */
+  :root{
+    --navbar-height:60px;
+  }
+  /* logo */
+#speaker,
+#logo{
+    size: 100%;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+/* Navigation Bar Logo And Image */
+#speaker,
+#logo{
+     height: 50px;
+     margin: 10px 10px;
+}
+#speaker img,
+#logo img{
+    height: 50px;
+    margin: 2px 4px;
+}
+  
+  /* Navigation Bar List Styling */
+  
+  
+  #navbar ul{
+    display: flex;
+    font-family: 'bookman', cursive;
+  }
+  
+  #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    
+  }
+  
+  #navbar ul li{
+    list-style: none;
+    font-size: 1.5 rem;
+  }
+  
+  #navbar ul li a{
+    color: yellow;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+  #navbar ul li a:hover{
+    background-color:rgb(29, 240, 29);
+    color: black;
+  }
+  /*footer*/
+  footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+  }
+
+
+
+/*main body*/
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet; 
+    font-family: 'bookman', cursive;
+}
+h3{
+    text-align: center;
+    color: rgb(190, 184, 177);
+}   
+h1{
+    text-align: center;   
+    margin: 50px;
+   
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* button */
+.button-container{
+    text-align: center;
+    margin: 20px;
+    padding:0 10px 0 10px ;
+}
+.check-copy{
+    display: inline-block;
+    padding:12px;
+    margin: 10px;
+    background-color: rgb(134, 68, 195);
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:focus,button:hover{
+    background-color: rgb(185, 132, 236);
+    
+}
