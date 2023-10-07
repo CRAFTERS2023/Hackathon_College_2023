@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Translator </title>
+    <link rel="stylesheet" href="css/style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body style="background-color:  #f053c6;">
+    <nav id="navbar">
+      <div id="logo">
+        <img src="css/pic_vid/logo.jpg">  
+
+      </div>
+      <ul >
+        <li class="item"><a href="index1.html">HOME</a></li>
+        <li class="item"><a href="index4.html">TRANSLATOR CRAFTERS</a></li>
+        <li class="item"><a href="index2.html">SPELL CREAFTERS</a></li>
+        <li class="item"><a href="index3.html">DICTIONARY CRAFTERS</a></li> 
+        <li class="item"><a href="index1.html#feedback">FEEDBACK</a></li>
+        <li class="item"><a href="index1.html#about">CONTRIBUTORS</a></li>
+      </ul>
+      <nav style="margin-left:auto">
+        <div id="speaker">
+            <img src="css/pic_vid/speak.jpg" >
+            <script>
+                let speakButton = document.getElementById("speaker");
+                speakButton.addEventListener("click", function() {
+                let utterance = new SpeechSynthesisUtterance();
+                utterance.text = `Introducing Translator Crafters.
+                                  want to translate?
+                                  Here You Get The All New Translator Crafters.
+                                  Find Ultimate Translator.
+                                  Get About 96 Languages.
+                                  Try It Now`;
+                utterance.voice = window.speechSynthesis.getVoices()[2];
+                window.speechSynthesis.speak(utterance);
+                });
+            </script>
+        </div>
+    </nav>
+    <nav style="margin-left:auto">
+      <div id="logo">
+        <a href="css/pic_vid/Intro-Code-Crafters.pdf" download><img src="css/pic_vid/down.png"></a>
+      </div>
+    </nav>
+    <nav style="margin-left:auto">
+        <button onclick="gfg_Run1()">🔴</button>
+        <button onclick="gfg_Run2()">🟢</button>
+        <button onclick="gfg_Run3()">🟡</button>
+        <button onclick="gfg_Run4()">🔵</button>
+        <button onclick="gfg_Run6()">🟣</button>
+        <button onclick="gfg_Run5()">⚪</button>
+    </nav>
+    
+    <script>	
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+        
+        function gfg_Run1() {
+            changeColor('#FF6306');
+        }
+        function gfg_Run2() {
+            changeColor('limegreen');
+        }
+        function gfg_Run3() {
+            changeColor('yellow');
+        }
+        function gfg_Run4() {
+            changeColor('#4CD9FF');
+        }
+        function gfg_Run5() {
+            changeColor('#FFFFFF');
+        }
+        function gfg_Run6() {
+            changeColor('#fb59fe');
+        }
+    </script>
+  </nav>
+    <div id="box">
+    <div class="container">
+        <h1>TRANSLATOR</h1>
+        <p>enter your text and press translate text button to get the translation</p>
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Please Enter  the text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <!-- <i id="from" class="fas fa-copy" ></i>
+               -->
+            </div>
+            <select></select>
+          </li>
+          
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+                <i id="to" class="fas fa-copy"></i>
+                
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button class="trans">Translate Text</button>
+    </div>
+  </div>
+
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+
+    <footer style="font-family: 'Bookman', cursive;">
+      <div class="footer-section">
+          <p style="text-align: center; margin: auto ;padding: auto; font-size: 2rem;background-color:black;color:white;font-size: 25px;">
+              <a href="mailto:codecrafters2023it@gmail.com">codecrafters2023it@gmail.com</a><br/>
+              Copy Right &copy;
+          </p>
+      </div>
+  </footer>
+  
+
+  </body>
+</html>
