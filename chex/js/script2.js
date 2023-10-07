@@ -1,4 +1,6 @@
-const apiKey = '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';
+
+S/* Spelling And Grammar */
+const apiKey = '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';
 
 document.getElementById('checkButton').addEventListener('click', checkSpellingAndGrammar);
 
