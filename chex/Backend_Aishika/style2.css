@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
     background-color: rgb(244, 186, 173);
     font-size: 12px;
@@ -54,9 +57,4 @@ button{
 button:focus,button:hover{
     background-color: rgb(185, 132, 236);
     
-}
-
-/* results div */
-.results{
-
 }

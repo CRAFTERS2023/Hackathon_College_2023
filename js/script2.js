@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 const apiKey = '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';
+=======
+const apiKey = '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';
+>>>>>>> 7e8ae15ed778fa3377908078b01578f7ae3b79ba
 
 document.getElementById('checkButton').addEventListener('click', checkSpellingAndGrammar);
 
