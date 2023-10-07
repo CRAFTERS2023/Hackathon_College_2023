@@ -1,5 +1,5 @@
 
-const apiKey = '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';
+const apiKey = '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';
 
 document.getElementById('checkButton').addEventListener('click', checkSpellingAndGrammar);
 
@@ -7,6 +7,7 @@ async function checkSpellingAndGrammar() {
     const textInput = document.getElementById('textInput').value;
 
     if (!textInput) {
+        console.log("working");
         alert('Please enter some text to check.');
         return;
     }
