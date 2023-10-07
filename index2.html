@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPEELING CORRECTOR</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
-
 <body>
     <nav id="navbar">
         <div id="logo">
-          <img src="css/pic_vid/logo.jpg">  
+            <img src="css/pic_vid/logo.jpg">  
 
         </div>
         <ul>
             <li class="item"><a href="index.html">HOME</a></li>
-            <li class="item"><a href="index4.html">TRANSLATOR CRAFTERS</a></li>
->>>>>>> 7e8ae15ed778fa3377908078b01578f7ae3b79ba
+            <li class="item"><a href="index1.html#innovation">ABOUT</a></li>
             <li class="item"><a href="index2.html">SPELL CREAFTERS</a></li>
             <li class="item"><a href="index3.html">DICTIONARY CRAFTERS</a></li> 
             <li class="item"><a href="index.html#feedback">FEEDBACK</a></li>
@@ -81,46 +78,43 @@
             }
         </script>
     </nav>
-    <br />
-
-
+    <br/>
+    
+    <script src="js/script2.js"></script>
 
 
     <h1>Spelling and Grammar Checker</h1>
-
     <h3>please enter the text here and press check to check and copy text to copy the text </h3>
-    <textarea id="textInput" rows="20" cols="50" placeholder="Enter your text here..."></textarea>
-    <br>
+    <textarea id="textInput" rows="10" cols="100" placeholder="Enter your text here..."></textarea>
     <div class="button-container">
+        <button class="check-copy">Check</button>
 
-        <!-- check text button -->
-        <button id="checkButton">Check</button>
+        </div>
+            <br/>
+            <h3>corrected text will be displayed here </h3>
+            <div class="results-container">
+            <textarea id="results" rows="10" cols="100" placeholder="result...."></textarea>
+        </div>
+    
+        <div class="button-container">
+            <button class="check-copy" onclick="copytext()">copy text</button> 
+        </div>
+
+        
+        
     </div>
-    <br>
-    <h3>corrected text will be displayed here </h3>
-    <div class="results-container">
-        <textarea id="results" rows="20" cols="50" placeholder="result...."></textarea>
-    </div>
+    
 
-    <div class="button-container">
-        <!-- copy text buttton -->
-        <button class="copy-text-button" onclick="copytext()">copy text</button>
-
-    </div>
-
+    
     <footer style="font-family: 'Bookman', cursive;">
         <div class="footer-section">
-            <p
-                style="text-align: center; margin: auto ;padding: auto; font-size: 2rem;background-color:black;color:white;font-size: 25px;">
-                <a href="mailto:codecrafters2023it@gmail.com">codecrafters2023it@gmail.com</a><br />
+            <p style="text-align: center; margin: auto ;padding: auto; font-size: 2rem;background-color:black;color:white;font-size: 25px;">
+                <a href="mailto:codecrafters2023it@gmail.com">codecrafters2023it@gmail.com</a><br/>
                 Copy Right &copy;
             </p>
         </div>
     </footer>
-
-
+    
+    
 </body>
-
-<script src="js/script2.js"></script>
-
 </html>
