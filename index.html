@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE CRAFTERS</title>
+    <link rel="stylesheet" href="css/style1.css">
+    
+</head>
+<body style="background-color: rgb(248, 246, 139);">
+    <nav id="navbar">
+        <div id="logo">
+          <img src="css/pic_vid/logo.jpg">  
+
+        </div>
+        <ul>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="index4.html">TRANSLATOR CRAFTERS</a></li>
+            <li class="item"><a href="index2.html">SPELL CREAFTERS</a></li>
+            <li class="item"><a href="index3.html">DICTIONARY CRAFTERS</a></li>
+            <li class="item"><a href="#feedback">FEEDBACK</a></li>
+            <li class="item"><a href="#about">CONTRIBUTORS</a></li>
+        </ul>
+        <nav style="margin-left:auto">
+            <div id="speaker">
+                <img src="css/pic_vid/speak.jpg" >
+                <script>
+                    let speakButton = document.getElementById("speaker");
+                    speakButton.addEventListener("click", function() {
+                    let utterance = new SpeechSynthesisUtterance();
+                    utterance.text = `Welcome To Code Crafters.
+                                        Learning Never Ends.
+                                        Lets Make Digitalize Your Learning !
+                                        Here You Find The All New Translator & Spell Crafters & Dictionary Crafters
+                                        Update Your Vocabulary With Errorless Appropriate Meaning By Dictionary Crafters !
+                                        Make Your Spelling Frequent & Mistakeless By Spelling Crafters!
+                                        Try It Now`;
+                    utterance.voice = window.speechSynthesis.getVoices()[2];
+                    window.speechSynthesis.speak(utterance);
+                    });
+                </script>
+            </div>
+        </nav>
+        <nav style="margin-left:auto">
+            <div id="logo">
+              <a href="css/pic_vid/Intro-Code-Crafters.pdf" download><img src="css/pic_vid/down.png"></a>
+            </div>
+        </nav>
+        <nav style="margin-left:auto">
+            <button onclick="gfg_Run1()">🔴</button>
+            <button onclick="gfg_Run2()">🟢</button>
+            <button onclick="gfg_Run3()">🟡</button>
+            <button onclick="gfg_Run4()">🔵</button>
+            <button onclick="gfg_Run6()">🟣</button>
+            <button onclick="gfg_Run5()">⚪</button>
+        </nav>
+        <script>	
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+            
+            function gfg_Run1() {
+                changeColor('#FF6306');
+            }
+            function gfg_Run2() {
+                changeColor('limegreen');
+            }
+            function gfg_Run3() {
+                changeColor('yellow');
+            }
+            function gfg_Run4() {
+                changeColor('#4CD9FF');
+            }
+            function gfg_Run5() {
+                changeColor('#FFFFFF');
+            }
+            function gfg_Run6() {
+                changeColor('#fb59fe');
+            }
+        </script>
+    </nav>
+    
+    <!-- Website Home Section -->
+    <section id="home">
+        
+        <h1 class="h-primary" style="font-family: 'Bookman', cursive;color:rgb(97, 105, 251)">
+            <br/>Welcome To Code Crafters
+        </h1>
+        <p style="font-family:'Bookman',cursive;">
+            Learning Never Ends,Lets Make Digitalize Your Learning !
+            <br/>Do You Want To Try Translator? Here Get The Biggest Translator Platform !
+            <br/>Here You Find The All New Spell Crafters & Dictionary Crafters
+            <br/>Update Your Vocabulary With Errorless Appropriate Meaning By Dictionary Crafters !
+            <br/>Make Your Spelling Frequent & Mistakeless By Spelling Crafters !
+            
+        </p>
+        <br/>
+    </section>
+    
+    <section id="innovation">
+        <section class="work-container">
+            <h1 class="h-primary center" style="font-family: 'Bookman', cursive;"><br/>ABOUT</h1>
+            <div id="work">
+                <div class="box">
+                    <video src="css/pic_vid/Video1.mp4" controls autoplay muted loop></video>
+                    <h2 class="h-secondary center">Translator<br>Crafters</h2>
+                    <p class="center">Translators are responsible for translating written text from one language to another (usually a native language). They rely on advanced writing and translation skills to ensure the translated text resembles the original in terms of context and flow.
+
+                        Professional translators understand the need to maintain linguistic accuracy and cultural relevance by considering key references like slang and other expressions.
+                    </p>
+                    <center><button><a href="index1.html">Click Here</a></a></button></center>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="box">
+                    <video src="css/pic_vid/Video2.mp4" controls autoplay muted loop></video>
+                    <h2 class="h-secondary center">Spell<br/>Crafters</h2>
+                    <p class="center">Hi!Welcome to spelling corrector.Use it and improve your spelling skills.Rely  on the most accurate spelling corrector. Spell corrector, sometimes referred to as spell check, a spellchecker (one word), or a spell tester, points out words you’ve misspelled when you’re writing on a computer or mobile device. It can be a standalone function or be built into or added to an existing program that you write in.
+
+                        
+                    </p>
+                    <center><button><a href="index2.html">Click Here</a></button></center>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="box">
+                    <video src="css/pic_vid/Video3.mp4" controls autoplay muted loop></video>
+                    <h2 class="h-secondary center">Dictionary<br/>Crafters</h2>
+                    <p class="center">An onlinedictionary is a website that gives meaning to all the words in a particular language. Using a dictionary is very important for students, teachers or any educated person of any profession. By opening a dictionary, we can instantly learn the spelling, meaning, and application of any word. The more a person uses a dictionary, the richer his vocabulary is. So, there is no better teacher than a dictionary for language learning. 
+                        
+                    </p>
+                    <center><button><a href="index3.html">Click Here</a></button></center>
+                </div>
+            </div>
+        </section>
+    </section>    
+    
+    <section id="feedback" style="font-family: 'Bookman', cursive;">
+        <h1 class="h-primary center" style="font-family: 'Bookman', cursive;"><br/>Feedback</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name" ><b>Name</b></label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" name="name" id="email" placeholder="Enter Your Email ID">
+                </div>
+                <div class="form-group">
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter Your Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <label for="message"><b>Your Message</b></label>
+                    <textarea name="message" id="message" cols="30" rows="9"></textarea>
+    
+                </div>
+                
+                <div class="form-group">
+                    <label for="rating"><b>Your Rating</b></label>
+                    <br/>
+                    <div class="rate-box">
+                        <center>
+                            <button class="star">&#9734;</button>&nbsp &nbsp
+                            <button class="star">&#9734;</button>&nbsp &nbsp
+                            <button class="star">&#9734;</button>&nbsp &nbsp
+                            <button class="star">&#9734;</button>&nbsp &nbsp
+                            <button class="star">&#9734;</button>&nbsp &nbsp
+                            <p class="current-rating">0 of 5</p>
+                        </center>
+                        <script src="js/script-rating.js"></script>
+                    </div>
+                </div>
+                
+                <div class="email">
+                    <center>
+                        Send To:<a href = "mailto:codecrafters2023it@gmail.com">codecrafters2023it@gmail.com</a>
+                    </center>
+    
+                </div>
+            </form>
+            
+        </div>
+        
+    </section>
+    
+
+    <section id="about">
+        <section class="work-container">
+            <h1 class="h-primary center" style="font-family: 'Bookman', cursive;"><br/>Meet Our Developer Team</h1>
+            <div id="about">
+                <!-- Aishika -->
+                <div class="box">
+                    <img src="css/pic_vid/female.png" alt="">
+                    <h2 class="h-secondary center">Aishika Roy</h2>
+                    <p class="center">
+                        HTML,CSS,JS,Backend Developer<br/>
+                        <br/><a href="mailto:aishika03@gmail.com"><img src="css/pic_vid/email.png" style="height:34px;width:34px"></a>
+                        <a href="https://www.linkedin.com/in/aishika-roy-08b50b249"><img src="css/pic_vid/in.png" style="height:34px;width:34px;margin-left:20px"></a>
+                        <a href="https://github.com/aishika03"><img src="css/pic_vid/git.png" style="height:34px;width:34px;margin-left:20px"></a>
+                    </p>
+                </div>
+
+                <!-- Kartik-->
+                <div class="box">
+                    <img src="css/pic_vid/male.png" alt="">
+                    <h2 class="h-secondary center"> Kartik Das</h2>
+                    <p class="center">
+                        HTML,Frontend Developer,Designer<br/>
+                        <br/><a href="mailto:connect.kartik2023@gmail.com"><img src="css/pic_vid/email.png" style="height:34px;width:34px"></a>
+                        <a href="https://www.linkedin.com/in/kartik-das-140566283"><img src="css/pic_vid/in.png" style="height:34px;width:34px;margin-left:20px"></a>
+                        <a href="https://github.com/Kartik1203"><img src="css/pic_vid/git.png" style="height:34px;width:34px;margin-left:20px"></a>
+                    </p>
+                </div>
+
+                <!-- Priti -->
+                <div class="box">
+                    <img src="css/pic_vid/female.png" alt="">
+                    <h2 class="h-secondary center">Priti Mahata</h2>
+                    <p class="center">
+                        HTML,CSS,Frontend Developer<br/>
+                        <br/><a href="mailto:pritimahata417@gmail.com"><img src="css/pic_vid/email.png" style="height:34px;width:34px"></a>
+                        <a href="https://www.linkedin.com/in/priti-mahata-8a4316243"><img src="css/pic_vid/in.png" style="height:34px;width:34px;margin-left:20px"></a>
+                        <a href="https://github.com/Priti-Mahata"><img src="css/pic_vid/git.png" style="height:34px;width:34px;margin-left:20px"></a>
+                    </p>
+                </div>
+
+                <!-- Sumit -->
+                <div class="box">
+                    <img src="css/pic_vid/male.png" alt="">
+                    <h2 class="h-secondary center">Sumit Rajak</h2>
+                    <p class="center">
+                        HTML,CSS,Frontend Developer<br/>
+                        <br/><a href="mailto:sumit030810@gmail.com"><img src="css/pic_vid/email.png" style="height:34px;width:34px"></a>
+                        <a href="https://www.linkedin.com/in/sumit-rajak-7b9794292"><img src="css/pic_vid/in.png" style="height:34px;width:34px;margin-left:20px"></a>
+                        <a href="https://github.com/SUMIT030810"><img src="css/pic_vid/git.png" style="height:34px;width:34px;margin-left:20px"></a>
+                    </p>
+                </div>
+    
+            </div>
+
+        </section>
+    </section>
+
+    <footer style="font-family: 'Bookman', cursive;">
+        <div class="footer-section">
+            <p style="text-align: center; margin: auto ;padding: auto; font-size: 2rem;background-color:black;color:white;font-size: 25px;">
+                <a href="mailto:codecrafters2023it@gmail.com">codecrafters2023it@gmail.com</a><br/>
+                Copy Right &copy;
+            </p>
+        </div>
+    </footer>
+    
+
+    
+</body>
+</html>
