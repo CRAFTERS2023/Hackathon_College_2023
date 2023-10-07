@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'bookman', cursive;
 }
+a{
+  text-decoration: none;
+}
 body{
   display: flex;
   align-items: center;
